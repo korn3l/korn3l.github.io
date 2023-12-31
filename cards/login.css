@@ -1,0 +1,80 @@
+body {
+  margin-top: 70px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  font-family: Roboto;
+}
+
+.footer {
+  position: fixed;
+}
+
+.login-form {
+  width: 500px;
+  margin: 8% auto;
+  padding: 50px 0;
+  text-align: center;
+  box-shadow: 0 20px 40px rgb(0, 0, 0);
+}
+
+.input-box {
+  margin: 30px auto;
+  width: 80%;
+  position: relative;
+  box-shadow: 0 8px 10px -10px rgb(0, 0, 0);
+}
+
+.input-box input {
+  width: 100%;
+  height: 40px;
+  border: none;
+  background: #efefef;
+  padding-left: 50px;
+  box-sizing: border-box;
+}
+
+.input-box span {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(to right, #d97a14, rgb(68, 179, 46));
+}
+
+span .fa-user,
+.fa-envelope,
+.fa-lock {
+  padding: 10px;
+  color: #fff;
+}
+
+.login-button {
+  width: 130px;
+  height: 40px;
+  margin: 0 auto;
+  display: block;
+  color: #fff;
+  border: 0;
+  font-size: 16px;
+  outline: none;
+  background: linear-gradient(to right, #d97a14, rgb(68, 179, 46));
+  box-shadow: 0 8px 10px -10px rgb(0, 0, 0);
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  box-shadow: 0 1px 10px 1px black;
+}
+
+.login-button:active {
+  opacity: 0.8;
+}
+
+.login-title {
+  font-weight: 300;
+  font-size: 18px;
+  color: #d97a14;
+}
