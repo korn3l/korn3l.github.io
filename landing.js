@@ -14,6 +14,6 @@ btn2.onclick = function () {
 
 window.onload = function () {
   document.getElementById("SignButton2").onclick = function () {
-    window.location.href = "cards/products.html";
+    window.location.href = "index.html";
   };
 };

@@ -1,3 +1,153 @@
 body {
-  margin: 0;
+  margin-top: 70px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  font-family: Roboto;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0 30px;
+  background: radial-gradient(#ffffff, #355521);
+}
+
+.cont-1 {
+  flex-basis: 50%;
+  min-width: 300px;
+}
+
+.cont-1 p {
+  color: #555;
+}
+
+.cont-1 img {
+  max-width: 100%;
+  padding: 50px 0;
+  border-radius: 250px;
+}
+
+.cont-1 h1 {
+  font-size: 50px;
+  line-height: 50px;
+  margin: 25px 0;
+}
+
+.cont-1 .button-1 {
+  display: inline-block;
+  background: rgb(57, 76, 53);
+  color: #fff;
+  padding: 8px 30px;
+  margin: 30px 0;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.cont-1 .button-1:hover {
+  opacity: 0.9;
+}
+
+.cont-1 .button-1:active {
+  background: rgb(42, 58, 39);
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.categories {
+  margin: 70px 0;
+}
+
+.cont-2 {
+  flex-basis: 20%;
+  min-width: 250px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cont-2 img {
+  width: 100%;
+}
+
+.cont-2 p {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.small-cont {
+  max-width: 1480px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.cont-3 {
+  flex-basis: 25%;
+  padding: 10px;
+  min-width: 200px;
+  margin-bottom: 50px;
+  line-height: 25px;
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+
+.cont-3 img {
+  width: 100%;
+  border: solid;
+  border-width: 1px;
+  border-color: #555;
+  border-radius: 20px;
+}
+
+.cont-3 p {
+  color: #555;
+}
+
+.section-title {
+  text-align: center;
+  margin: 0 auto 80px;
+  position: relative;
+  line-height: 50px;
+  color: #555;
+}
+
+.section-title:after {
+  content: "";
+  background: #5bbc1e;
+  width: 80px;
+  height: 5px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.cont-3 h4 {
+  color: #333;
+  font-weight: normal;
+}
+
+.cont-3 p {
+  font-size: 14px;
+}
+
+.rating .fa-solid,
+.fa-regular {
+  color: #5bbc1e;
+}
+
+.cont-3:hover {
+  transform: translateY(-8px);
 }

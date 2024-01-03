@@ -1,3 +1,43 @@
 body {
-  margin: 0;
+  margin-top: 70px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  font-family: Roboto;
+  box-sizing: border-box;
+}
+
+.favorites {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 200px 12%;
+  margin-bottom: 200px;
+  text-align: left;
+  flex-wrap: nowrap;
+}
+
+.favorites form input {
+  width: 400px;
+  height: 45px;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  outline: none;
+  border-width: 1px;
+}
+
+.favorites form button {
+  background: #a31030;
+  border: 2px solid #702323;
+  border-radius: 4px;
+  color: #ffffff;
+  padding: 11px 30px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.fav-title {
+  line-height: 40px;
 }

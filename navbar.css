@@ -10,7 +10,7 @@
   top: 0;
 }
 
-.navbar a {
+.navbar ul a {
   float: left;
   color: #000000;
   text-align: center;
@@ -23,13 +23,13 @@
   align-items: center;
 }
 
-.navbar a:hover {
+.navbar ul a:hover {
   background-color: #04aa6d;
   color: black;
   border-radius: 20px;
 }
 
-.navbar a.active {
+.navbar ul a.active {
   background-color: #04aa6d;
   color: rgb(255, 255, 255);
 }

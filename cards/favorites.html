@@ -10,13 +10,19 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="favorites.css" />
   </head>
   <body>
-    <h1>favorites</h1>
+    <!-- navbar -->
     <div class="navbar" id="navbar">
       <div class="logo">
-        <img class="logo-img" src="../materials/Logo.png" />
+        <a href="../index.html"
+          ><img class="logo-img" src="../materials/Logo.png"
+        /></a>
       </div>
       <div class="search-box">
         <form>
@@ -37,13 +43,29 @@
       </ul>
     </div>
 
+    <!-- content -->
+    <div class="favorites">
+      <div class="fav-title">
+        <h2>Favorites (0)</h2>
+        <p>
+          Your favorite products will be save here for 30 days. If you want to
+          remember them send products list to your e-mail.
+        </p>
+      </div>
+      <form>
+        <input type="email" placeholder="Type your Email" required />
+        <button type="submit">Send &#187;</button>
+      </form>
+    </div>
+
+    <!-- footer -->
     <div class="footer">
       <div class="col-1">
         <h3>USEFUL LINKS</h3>
-        <a href="#">Our Shops</a>
-        <a href="#">About</a>
+        <a href="../cards/home.html">Our Shops</a>
+        <a href="../cards/home.html">About</a>
         <a href="#">Contact</a>
-        <a href="#">Shop</a>
+        <a href="../cards/products.html">Shop</a>
         <a href="#">See Also</a>
       </div>
       <div class="col-2">
